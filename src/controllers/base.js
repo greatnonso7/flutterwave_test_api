@@ -4,8 +4,8 @@ const { empty } = require('../utils')
 
 
 /**
- * @desc Get Person details
- * @route GET /api/v1/
+ * @desc Get Personal details
+ * @route GET /
  * @access PUBLIC 
  */
 exports.base = asyncHandler(async (req, res, next) => {
