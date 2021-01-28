@@ -24,7 +24,11 @@ app.use('/', base)
 
 // catch 404 and forwarding to error handler
 app.use(function (req, res) {
-  return res.status(404).json({ error: 'Route not found' });
+  return res.status(404).json({
+    status: 'error',
+    message: 'Route not found',
+    data: null
+  });
 });
 
 app.use(ErrorHandler)
