@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'))
 }
 
-app.use('/api/v1', base)
+app.use('/', base)
 
 // catch 404 and forwarding to error handler
 app.use(function (req, res) {
