@@ -7,7 +7,8 @@
   "author": "Ichoku Chinonso",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/index"
+    "dev": "nodemon src/index",
+    "start": "NODE_ENV=production node src/index"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
