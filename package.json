@@ -1,0 +1,21 @@
+{
+  "name": "Flutterwave_rule_validation_api_test",
+  "version": "1.0.0",
+  "description": "A rule validation based api ",
+  "main": "src/index.js",
+  "repository": "https://github.com/greatnonso7/flutterwave_test_api.git",
+  "author": "Ichoku Chinonso",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
